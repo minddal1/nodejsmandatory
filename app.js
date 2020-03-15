@@ -7,7 +7,7 @@ app.use(express.json());
 
 app.use(express.static(__dirname));
 
-app.use(express.static('public'))
+app.use(express.static('public'));
 
 const port = process.env.PORT ? process.env.PORT : 3000;
 
@@ -20,16 +20,22 @@ const server = app.listen(port, (error) => {
  
 app.get("/frontpage", (req, res) => {
   return res.sendFile(__dirname + "/public/frontpage.html") 
-})
+});
 
 app.get("/jquery", (req, res) => {
     return res.sendFile(__dirname + "/public/jquery.html")
-})
+});
 
 app.get("/npm", (req, res) => {
     return res.sendFile(__dirname + "/public/npm.html")
-})
+});
 
 app.get("/js", (req, res) => {
     return res.sendFile(__dirname + "/public/js.html")
-})
+});
+
+app.get("/keatube", (req, res) => {
+    return res.sendFile(__dirname + "/public/keatube.html")
+});
+
+

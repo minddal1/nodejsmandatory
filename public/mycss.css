@@ -11,7 +11,7 @@ body {
     top: 110px;
     left: 5em;
     width: 300px;
-    border: 5px solid brown;
+    
 }
 
 #npm {
@@ -19,7 +19,7 @@ body {
     top: 110px;
     left: 30em;
     width: 300px;
-    border: 5px solid brown;
+    
 }
 
 #js { 
@@ -28,7 +28,16 @@ body {
     top: 110px;
     left: 60em;
     width: 300px;
-    border: 5px solid brown;
+    
+}
+
+#keatube { 
+    
+    position: fixed;
+    top: 360px;
+    left: 5em;
+    width: 300px;
+    
 }
 
 #next {
@@ -57,7 +66,7 @@ body {
 }
 
 img {
-	border-radius: 10000px;
+	border-radius: 1px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -66,6 +75,9 @@ img {
 #jqueryPic {
 	width: 10em;
 	height: 10em;
+	display: block;
+	margin-left: 3em;
+	margin-right: 3em;
 }
 
 #midsite {
@@ -78,5 +90,15 @@ img {
 	
 }
 
+p {
+	font-size: larger;
+	color: black;
+	font-family: fantasy;
+}
+
+#jq1 {
+	background-color: burlywood;
+	width: 30em;
+}
 
 		
