@@ -9,26 +9,26 @@ body {
 #jquery {
     position: fixed;
     top: 110px;
-    left: 10em;
+    left: 5em;
     width: 300px;
-    border: 5px solid red;
+    border: 5px solid brown;
 }
 
 #npm {
     position: fixed;
     top: 110px;
-    left: 50em;
+    left: 30em;
     width: 300px;
-    border: 5px solid red;
+    border: 5px solid brown;
 }
 
 #js { 
     
     position: fixed;
     top: 110px;
-    left: 90em;
+    left: 60em;
     width: 300px;
-    border: 5px solid red;
+    border: 5px solid brown;
 }
 
 #next {
@@ -56,4 +56,27 @@ body {
 	top:1px;
 }
 
-        
+img {
+	border-radius: 10000px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#jqueryPic {
+	width: 10em;
+	height: 10em;
+}
+
+#midsite {
+	background-color: black;
+	width: 12em;
+}
+
+#npminstall {
+	color: blanchedalmond;
+	
+}
+
+
+		

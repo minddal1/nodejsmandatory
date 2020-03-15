@@ -7,6 +7,8 @@ app.use(express.json());
 
 app.use(express.static(__dirname));
 
+app.use(express.static('public'))
+
 const port = process.env.PORT ? process.env.PORT : 3000;
 
 const server = app.listen(port, (error) => {
